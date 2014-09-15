@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.frameworks  = "CoreData", "UIKit", "Foundation", "Security"
   s.dependency 'CocoaLumberjack'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '>= 2.4.0'
   s.dependency 'KeychainItemWrapper'
 end
