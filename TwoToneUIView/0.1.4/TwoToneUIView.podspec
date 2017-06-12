@@ -25,7 +25,7 @@ TwoToneUIView is an extension of UIView, which allows to display two visual flav
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'michal-olszewski' => 'olszewski.m.l@gmail.com' }
-  s.source           = { :git => 'https://github.com/GenieBelt/TwoToneUIView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:GenieBelt/TwoToneUIView.git', :tag => s.version.to_s }
   s.social_media_url   = "http://twitter.com/MichalOlszewski"
 
   s.ios.deployment_target = '8.0'

@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Michal Olszewski" => "olszewski.m.l@gmail.com" }
-  s.source           = { :git => "https://github.com/GenieBelt/gantt-lib-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:GenieBelt/gantt-lib-ios.git", :tag => s.version.to_s }
   s.social_media_url   = "http://twitter.com/MichalOlszewski"
 
   s.platform     = :ios, '8.0'

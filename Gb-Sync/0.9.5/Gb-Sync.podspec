@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/GenieBelt/gb-sync-objc.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:GenieBelt/gb-sync-objc.git", :tag => "#{s.version}" }
   s.source_files  = "Gb-Sync/Classes", "Gb-Sync/Classes/**/*.{h,m}"
   s.exclude_files = "Gb-Sync/Classes/Exclude"
 
